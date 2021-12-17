@@ -1,0 +1,16 @@
+<?php
+    $servername = "localhost";
+    $username = "root";
+    $password ="";
+    $dbname = "db_sekolah";
+
+    //membuat koneksi
+    $conn = mysqli_connect($servername,$username,$password,$dbname);
+
+    //
+    if(!$conn){
+        die ("koneksi gagal".mysqli_connect_eror());
+    }else{
+        
+    }
+?>
